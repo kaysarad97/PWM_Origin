@@ -106,7 +106,7 @@ class RentalEdit extends React.Component {
               <EditableSelect
                 entity={rental}
                 field={'category'}
-                options={['apartment', 'condo', 'house']}
+                options={['Open spaces', 'Indoors']}
                 onUpdate={this.updateRental}
                 className={`rental-type type-${rental.category}`}
               />

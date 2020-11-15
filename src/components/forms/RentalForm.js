@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import FileLoader from 'components/file-upload/FileLoader';
 
-const rentalOptions = ['apartment', 'condo', 'house'];
+const rentalOptions = ['Open spaces', 'Indoors'];
 
 const RentalForm = ({onSubmit}) => {
 
@@ -70,7 +70,7 @@ const RentalForm = ({onSubmit}) => {
       </div>
 
       <div className="form-group">
-        <label htmlFor="bedrooms">Rooms</label>
+        <label htmlFor="bedrooms">PeopleCount</label>
         <input 
           ref={register}
           name="numOfRooms"

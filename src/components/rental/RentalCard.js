@@ -18,7 +18,7 @@ const RentalCard = ({rental, renderMenu}) => {
               {rental.shared ? 'Shared' : 'Whole'} {rental.category} &#183; {rental.city}
             </h6>
             <h5 className="card-title big-font">{rental.title}</h5>
-            <p className="card-text">${rental.dailyPrice} per Night &#183; Free Cancelation</p>
+            <p className="card-text">${rental.dailyPrice} per Day &#183; Free Cancelation</p>
           </div>
         </div>
       </Link>

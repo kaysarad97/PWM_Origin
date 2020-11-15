@@ -12,17 +12,17 @@ exports.images = [
   {
     _id: image1Id,
     cloudinaryId: 'image1_k7kb7l',
-    url: 'https://res.cloudinary.com/bookwithme/image/upload/v1580492304/image1_k7kb7l.jpg'
+    url: 'https://res.cloudinary.com/dsfxqmfcm/image/upload/v1604892131/football_mwijqx.jpg'
   },
   {
     _id: image2Id,
     cloudinaryId: 'image2_dlqi4o',
-    url: 'https://res.cloudinary.com/bookwithme/image/upload/v1580492304/image2_dlqi4o.jpg'
+    url: 'https://res.cloudinary.com/dsfxqmfcm/image/upload/v1604892131/football_mwijqx.jpg'
   },
   {
     _id: image3Id,
     cloudinaryId: 'image3_agfjva',
-    url: 'https://res.cloudinary.com/bookwithme/image/upload/v1580492304/image3_agfjva.jpg'
+    url: 'https://res.cloudinary.com/dsfxqmfcm/image/upload/v1604892131/football_mwijqx.jpg'
   }
 ]
 
@@ -39,38 +39,38 @@ exports.users = [{
 }]
 
 exports.rentals = [{
-  title: "Nice view on ocean",
-  city: "San Francisco",
-  street: "Main street",
-  category: "condo",
+  title: "Game Place",
+  city: "Nur-Sultan",
+  street: "Сығанақ,24",
+  category: "basketball",
   image: image1Id,
   numOfRooms: 4,
   shared: true,
-  description: "Very nice apartment in center of the city.",
+  description: "Place for play basketball.",
   dailyPrice: 43,
   owner: user1Id
 },
 {
-  title: "Modern apartment in center",
-  city: "New York",
-  street: "Time Square",
-  category: "apartment",
+  title: "Game Place",
+  city: "Nur-Sultan",
+  street: "Сығанақ,24",
+  category: "Football",
   image: image2Id,
   numOfRooms: 1,
   shared: false,
-  description: "Very nice apartment in center of the city.",
+  description: "Place for play football.",
   dailyPrice: 11,
   owner: user1Id
 },
 {
-  title: "Old house in nature",
-  city: "Bratislava",
-  street: "Letna 7",
-  category: "house",
+  title: "Test Game",
+  city: "Nur-Sultan",
+  street: "Сығанақ,24",
+  category: "Another game",
   image: image3Id,
   numOfRooms: 5,
   shared: true,
-  description: "Very nice apartment in center of the city.",
+  description: "Place for play.",
   dailyPrice: 23,
   owner: user2Id
 }]

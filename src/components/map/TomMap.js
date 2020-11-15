@@ -16,7 +16,7 @@ const TomMap = ({location}) => {
         addMarker(map.current, position);
       })
       .catch(error => {
-        addPopupMessage(map.current, error);
+        addPopupMessage(map.current, error); 
       })
   }, [getGeoPosition, map, setCenter, addMarker, addPopupMessage])
 

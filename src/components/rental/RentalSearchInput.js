@@ -26,7 +26,7 @@ const RentalSearchInput = () => {
         value={location}
         className="form-control mr-sm-2 bwm-search" 
         type="search" 
-        placeholder="Try 'New York'" />
+        placeholder="Search" />
       <button
         onClick={handleSearch} 
         className="btn btn-bwm-main btn-outline-success my-2 my-sm-0" 

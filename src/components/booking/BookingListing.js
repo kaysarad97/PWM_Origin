@@ -32,7 +32,7 @@ const BookingListing = ({
               <div className="card-block">
                 <h4 className="card-title">{booking.rental.title} - {capitalize(booking.rental.city)} </h4>
                 <p className="card-text booking-days">
-                  {formatDate(booking.startAt)} - {formatDate(booking.endAt)} | {booking.nights} nights
+                  {formatDate(booking.startAt)} - {formatDate(booking.endAt)} | {booking.nights} Days
                 </p>
                 <p className="card-text"><span>Price: </span> <span className="booking-price-value">${booking.price}</span></p>
                 <Link 
